@@ -1,5 +1,5 @@
 <template>
-  <h1>Index</h1>
+  <h1>Gallery</h1>
 </template>
 
 <style scoped>
