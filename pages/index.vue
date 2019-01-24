@@ -1,9 +1,13 @@
 <template>
-  <h1>Index</h1>
+  <HomeBanner/>
 </template>
 
-<style scoped>
-h1 {
-  font-size: 25em;
-}
-</style>
+<script>
+import HomeBanner from "../components/HomeBanner";
+
+export default {
+  components: {
+    HomeBanner
+  }
+};
+</script>
