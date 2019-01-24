@@ -1,5 +1,5 @@
 <template>
-  <header class="header_area">
+  <header class="header_area" id="sticky-nav">
     <div class="main_menu">
       <b-navbar class="navbar-expand-lg navbar-light">
         <div class="container">
@@ -49,4 +49,22 @@
     </div>
   </header>
 </template>
+
+<script>
+export default {
+  mounted() {
+    const header = document.getElementById("sticky-nav");
+    const nav_offset_top = header.offsetHeight + 50;
+
+    window.addEventListener("scroll", function() {
+      let scroll = document.documentElement.scrollTop;
+      if (scroll >= nav_offset_top) {
+        header.classList.add("navbar_fixed");
+      } else {
+        header.classList.remove("navbar_fixed");
+      }
+    });
+  }
+};
+</script>
 
