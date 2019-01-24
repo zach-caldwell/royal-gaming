@@ -210,10 +210,15 @@
   }
   .navbar-right {
     .primary_btn {
-      min-width: 135px;
+      min-width: 160px;
       text-transform: uppercase;
       border-radius: 50px;
       line-height: 40px;
+      .fa-discord {
+        font-size: 1.75em;
+        vertical-align: middle;
+        padding-left: 3px;
+      }
     }
   }
 }

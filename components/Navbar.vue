@@ -37,7 +37,10 @@
             </b-navbar-nav>
             <ul class="nav navbar-nav navbar-right">
               <li class="nav-item">
-                <a href="#" class="primary_btn">join us</a>
+                <a href="https://discord.gg/AWqfvY3" target="_blank" class="primary_btn">
+                  join us
+                  <span class="fab fa-discord"></span>
+                </a>
               </li>
             </ul>
           </b-collapse>
