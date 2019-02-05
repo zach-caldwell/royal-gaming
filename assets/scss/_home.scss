@@ -20,3 +20,43 @@
 
 /* End About Us Area css
 ============================================================================================ */
+
+/* Start Upcoming Games Area css
+============================================================================================ */
+
+.upcoming_games_area {
+  padding: 120px 0 80px;
+}
+
+.new_games_item {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+  &:hover {
+    .upcoming_title {
+      @include gradient(to right, $primary-color 0%, $primary-color2 100%);
+      h3 {
+        color: #22195e;
+      }
+    }
+  }
+  .upcoming_title {
+    position: absolute;
+    background: rgba(44, 37, 93, 0.8);
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    @include transition();
+    h3 {
+      font-size: 18px;
+      margin: 0;
+      padding: 20px;
+      color: #fff;
+      @include transition();
+    }
+  }
+}
+
+/* End Upcoming Games Area css
+============================================================================================ */
