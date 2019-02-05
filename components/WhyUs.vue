@@ -4,12 +4,12 @@
       <div class="row about_content align-items-center">
         <div class="col-lg-6">
           <div class="section_content">
-            <h6>Why Us</h6>
+            <h6>Why Us?</h6>
             <h1>Top Tier Members
               <br>Are Our Foundation
             </h1>
             <p>
-              Ever wonder what it would be like to join a server that is full of active and egaged members?
+              Ever wonder what it would be like to join a server that is full of active and engaged members?
               Do you enjoy hanging out with people who like to play a multitude of games both casually and competitively?
               We might just be the place for you
             </p>
